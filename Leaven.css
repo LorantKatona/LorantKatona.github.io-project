@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(235, 236, 221);
+    font-family:Verdana;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* by wrap I will let the items to move when size of the windows change*/
+    justify-content: space-around;
+    background-color: rgb(223, 171, 130);
+    padding: 15px;
+    color:rgb(15, 15, 14);
+  }
+  
+.flex-container > div {
+    width: 40%;
+    margin: 10px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 16px;
+    background-color: rgb(235, 236, 221);;
+  }
+  .flour {
+      width: 280px;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    text-align: center;    
+  }
