@@ -21,7 +21,7 @@
                 alt="Flour">
         </div>
         <div class="table">
-            <table style="width:30%">
+            <table style="width:40%">
                 <tr>
                     <th>Day </th>
                     <th>Flour Amount <br>[SI units]</th>
@@ -64,14 +64,17 @@
                     <td> 20 ml</td>
                     <td>1.5 tbs</td>
                 </tr>
-                <img src="kovasz.jpg" alt="kovasz" style="float:left;width:200px;height:300px;float:right;margin-right: 15px;">
+                <p style="float: left; width: 60%"> After the sixth day the starter is ready to be used, meaning that has enough and the right type of micbrobes to be able to fermentate a whole bread. </p>
+                <img src="kovasz.jpg" alt="kovasz" style="float:left;width:300px;height:400px;float:right;margin: 65px 55px 25px;">
         </div>
         
     </div>
     
 
 </body>
+<!--
 <form>
     <input type="button" value="Go back!" onclick="history.back(-1)" class="right";>
 </form>
+-->
 </html>
