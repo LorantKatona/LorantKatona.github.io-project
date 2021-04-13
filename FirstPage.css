@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+}
+  
+.header {
+    background-color: #373A36;
+    color: whitesmoke;
+    padding: 15px;
+    max-width: 1610px;
+}
+  
+body {
+      background-color: #E6E2DD;
+  }
+  
+h2 {
+    color: #373A36;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.menu {
+    float: left;
+    width: 20%;
+}
+.menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.main {
+    float: left;
+    width: 40%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+.right {
+    background-color: #D48166;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+}
+  /* View setting for different media tools*/
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+}
+.button {
+          background-color: #D48166;
+          border: none;
+          color: white;
+          padding: 20px 34px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 20px;
+          margin: 14px 12px;
+          cursor: pointer;
+}
+  
+p::first-letter {
+    font-size: 300%;
+    color: #373A36;
+}
