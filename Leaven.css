@@ -1,38 +1,41 @@
 
-p{
+p {
   font-family: cursive;
-  line-height: 1.6px;
+  line-height: 1px;
+  float: left; 
+  width: 80%;
 }
 body {
-    background-color: rgb(235, 236, 221);
+    background-color: #E6E2DD;
     font-family: cursive;
     line-height: 1.6px;
+}
+h2 {
+  float: left;
 }
 .flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; /* by wrap I will let the items to move when size of the windows change*/
     justify-content: space-around;
-    background-color: rgb(223, 171, 130);
+    background-color: #E6E2DD;
     padding: 15px;
     color:rgb(15, 15, 14);
   }
   
 .flex-container > div {
     width: 45%;
-    margin: 10px;
-    text-align: center;
-    line-height: 15px;
+    margin: 25px;
+    text-align: left;
+    line-height: 20px;
     font-size: 16px;
-    background-color: rgb(235, 236, 221);;
+    background-color: #D48166;;
   }
-.flour {
-      width: 480px;
-  }
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    margin: 55px 55px;
+    margin: 35px 35px;
   }
 th, td {
     padding: 8px;
@@ -41,3 +44,17 @@ th, td {
 .right {
   position: bottom;
   }
+.flour {
+  float: left;
+  margin: 35px 35px;
+  width: 480px;
+}
+aside {
+    width: 30%;
+    padding: 35px;
+    margin: 35px;
+    float: right;
+    font-style: italic;
+    background-color: #373A36;
+    color: white;
+}
