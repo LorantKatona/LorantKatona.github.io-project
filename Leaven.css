@@ -1,80 +1,43 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Leaven.css">
-    <style>
-        input.right {
-          float: right;
-        }
-      </style>
-</head>
-
-<body>
-    <div class="flex-container">
-        <div class="flour">
-            <p>The choice of the flour is individually variable. 
-                You can use either all-purpose white and hard type, whole grain,
-                or mixture of these.</p>
-            <img src="https://www.motherearthnews.com/-/media/Images/MEN/Editorial/Articles/Online-Articles/2015/02-01/How-to-Make-Homemade-Flour/komo-grain-mill-square-jpg.jpg"
-                alt="Flour">
-        </div>
-        <div class="table">
-            <table style="width:40%">
-                <tr>
-                    <th>Day </th>
-                    <th>Flour Amount <br>[SI units]</th>
-                    <th>Water <br>[SI units]</th>
-                    <th>Amount <br> [Kitchen units &#128513]</th>
-                </tr>
-                <tr>
-                    <th> 1 </th>
-                    <td>10 gr</td>
-                    <td>10 ml</td>
-                    <td> 1/2 tbs </td>
-                </tr>
-                <tr>
-                    <th> 2 </th>
-                    <td>20 gr</td>
-                    <td>20 ml</td>
-                    <td> 1 tbs </td>
-                </tr>
-                <tr>
-                    <th> 3 </th>
-                    <td> 30 gr</td>
-                    <td>30 ml</td>
-                    <td>1.5 tbs</td>
-                </tr>
-                <tr>
-                    <th> 4 </th>
-                    <td> 30 gr</td>
-                    <td>30 ml</td>
-                    <td>1.5 tbs</td>
-                </tr>
-                <tr>
-                    <th> 5 </th>
-                    <td> 30 gr</td>
-                    <td>20 ml</td>
-                    <td>1.5 tbs</td>
-                </tr>
-                <tr>
-                    <th> 6 </th>
-                    <td> 30 gr</td>
-                    <td> 20 ml</td>
-                    <td>1.5 tbs</td>
-                </tr>
-                <p style="float: left; width: 60%"> After the sixth day the starter is ready to be used, meaning that has enough and the right type of micbrobes to be able to fermentate a whole bread. </p>
-                <img src="kovasz.jpg" alt="kovasz" style="float:left;width:300px;height:400px;float:right;margin: 65px 55px 25px;">
-        </div>
-        
-    </div>
-    
-
-</body>
-<!--
-<form>
-    <input type="button" value="Go back!" onclick="history.back(-1)" class="right";>
-</form>
--->
-</html>
+p{
+  font-family: cursive;
+  line-height: 1.6px;
+}
+body {
+    background-color: rgb(235, 236, 221);
+    font-family: cursive;
+    line-height: 1.6px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* by wrap I will let the items to move when size of the windows change*/
+    justify-content: space-around;
+    background-color: rgb(223, 171, 130);
+    padding: 15px;
+    color:rgb(15, 15, 14);
+  }
+  
+.flex-container > div {
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 16px;
+    background-color: rgb(235, 236, 221);;
+  }
+.flour {
+      width: 480px;
+  }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 55px 55px;
+  }
+th, td {
+    padding: 8px;
+    text-align: center;    
+  }
+.right {
+  position: bottom;
+  }
