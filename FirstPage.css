@@ -85,8 +85,3 @@ h2 {
           margin: 14px 12px;
           cursor: pointer;
 }
-  
-p::first-letter {
-    font-size: 300%;
-    color: #373A36;
-}
