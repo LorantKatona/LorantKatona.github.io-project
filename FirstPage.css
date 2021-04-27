@@ -1,20 +1,60 @@
 * {
     box-sizing: border-box;
     font-family: cursive;
+    font-style: italic;
 }  
+.logo{
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    text-align: right;
+}
 .header {
-    background-color: #373A36;
+    /*background-color: #E6E2DD;#373A36;*/
     color: whitesmoke;
-    padding: 2px;
+    padding: 0px;
     width: 100%;
+    position: sticky;
+    top: 0;
+}
+.button_header {
+    transition-duration: 0.4s;
+    background-color: #E6E2DD;
+    border: none;
+    color: black;
+    padding: 0px 19px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 8px;
+    cursor: pointer;
 
+}
+.button_header:hover {
+
+    background-color: #373A36; 
+    color: white;
 }
 .top_line {
     top: 20px;
+
 }
 body {
       background-color: #E6E2DD;
-  }
+      background-image: url("naslovna.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family:Verdana;
+      font-size: 16px;
+}
+
+.menu {
+    float: left;  
+    width: 10%;
+    /*background-color: #E6E2DD;*/
+}
 
 .fa {
     padding: 8px;
@@ -29,42 +69,49 @@ body {
     background: #3B5998;
     color: white;
 }
+
 .fa-youtube {
     background: #bb0000;
     color: white;
 }
-.menu {
-    float: left;
-    width: 20%;
-}
+
 .menuitem {
     padding: 8px;
     margin-top: 7px;
     border-bottom: 1px solid #f1f1f1;
 }
+
+.ham_menu{
+    width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
 .main {
     float: left;
-    width: 40%;
+    width: 35%;
     padding: 0 20px;
     overflow: hidden;
 }
+
 li {
     padding-right: 25px;
 }
 li::before {
     padding: 55px;
 }
-.right {
-    /*background-color: #D48166;*/
-    background-image: url("bread_background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+.left {
+    padding: 5px 5px;
+    margin-top: 2px;
     float: left;
-    width: 20%;
-    padding: 10px 15px;
-    margin-top: 7px;
+    width: 40%;
+    color: black;
+    /*background-color: #E6E2DD;
+    border: 1px solid black;*/
+    opacity: 1;
 }
+
   /* View setting for different media tools*/
 @media only screen and (max-width:800px) {
     /* For tablets: */
@@ -86,7 +133,7 @@ li::before {
     background-color: #D48166;
     border: none;
     color: white;
-    padding: 20px 20px;
+    padding: 0px 20px;
     border-radius: 12px;
     text-align: center;
     text-decoration: none;
@@ -95,23 +142,23 @@ li::before {
     margin: 10px 12px;
     cursor: pointer;
 }
-.button_header {
-    transition-duration: 0.4s;
-    background-color: #E6E2DD;
-    border: none;
-    color: black;
-    padding: 6px 14px;
-    border-radius: 6px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 12px;
-    cursor: pointer;
 
+
+.footer {
+    background-color:#373A36;
+    color: whitesmoke;  
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size:12px;
 }
-.button_header:hover {
-
-    background-color: #D48166; 
-    color: white;
+.validator{
+    position: absolute;
+    bottom: 8px;
+    right: 6px;
+    text-align: right;
+}
+.products {
+    font-size: 16px;
+    line-height: 20px;
 }
