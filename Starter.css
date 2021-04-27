@@ -1,17 +1,7 @@
-
-p {
-  font-family: cursive;
-  line-height: 1px;
-  float: left; 
-  width: 80%;
-}
 body {
     background-color: #E6E2DD;
     font-family: cursive;
     line-height: 1.6px;
-}
-h2 {
-  float: left;
 }
 .flex-container {
     display: flex;
