@@ -1,26 +1,25 @@
 * {
     box-sizing: border-box;
     font-family: cursive;
-}
-  
+}  
 .header {
     background-color: #373A36;
     color: whitesmoke;
-    padding: 15px;
-    max-width: 1610px;
+    padding: 2px;
+    width: 100%;
+
 }
-  
+.top_line {
+    top: 20px;
+}
 body {
       background-color: #E6E2DD;
   }
-  
-h2 {
-    color: #373A36;
-}
+
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
+    padding: 8px;
+    font-size: 15px;
+    width: 35px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -49,8 +48,18 @@ h2 {
     padding: 0 20px;
     overflow: hidden;
 }
+li {
+    padding-right: 25px;
+}
+li::before {
+    padding: 55px;
+}
 .right {
-    background-color: #D48166;
+    /*background-color: #D48166;*/
+    background-image: url("bread_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
     float: left;
     width: 20%;
     padding: 10px 15px;
@@ -74,14 +83,35 @@ h2 {
     }
 }
 .button {
-          background-color: #D48166;
-          border: none;
-          color: white;
-          padding: 20px 34px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 16px;
-          margin: 14px 12px;
-          cursor: pointer;
+    background-color: #D48166;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 12px;
+    cursor: pointer;
+}
+.button_header {
+    transition-duration: 0.4s;
+    background-color: #E6E2DD;
+    border: none;
+    color: black;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 12px;
+    cursor: pointer;
+
+}
+.button_header:hover {
+
+    background-color: #D48166; 
+    color: white;
 }
