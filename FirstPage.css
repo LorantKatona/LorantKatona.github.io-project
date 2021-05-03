@@ -8,6 +8,8 @@
     top: 8px;
     right: 6px;
     text-align: right;
+    width:  250px;
+    height: 250px;
 }
 .header {
     /*background-color: #E6E2DD;#373A36;*/
@@ -79,13 +81,6 @@ body {
     padding: 8px;
     margin-top: 7px;
     border-bottom: 1px solid #f1f1f1;
-}
-
-.ham_menu{
-    width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
 }
 
 .main {
