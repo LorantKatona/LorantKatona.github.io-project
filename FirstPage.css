@@ -1,159 +1,153 @@
 * {
-    box-sizing: border-box;
-    font-family: cursive;
-    font-style: italic;
+  box-sizing: border-box;
+  font-family: cursive;
+  font-style: italic;
 }  
+/* Images */
 .logo{
-    position: absolute;
-    top: 8px;
-    right: 6px;
-    text-align: right;
-    width:  250px;
-    height: 250px;
+  position: absolute;
+  top: 8px;
+  right: 6px;
+  text-align: right;
+  max-width:100%;
+  height:auto;
+  float: right;
 }
-.header {
-    /*background-color: #E6E2DD;#373A36;*/
-    color: whitesmoke;
-    padding: 0px;
-    width: 100%;
-    position: sticky;
-    top: 0;
+.leaven {
+  max-width:100%;
+  height:auto;
+  float: left;
 }
 .button_header {
-    transition-duration: 0.4s;
-    background-color: #E6E2DD;
-    border: none;
-    color: black;
-    padding: 0px 19px;
-    border-radius: 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 8px;
-    cursor: pointer;
+  transition-duration: 0.4s;
+  background-color: #E6E2DD;
+  border: none;
+  color: black;
+  padding: 0px 19px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 8px;
+  cursor: pointer;
 
 }
 .button_header:hover {
 
-    background-color: #373A36; 
-    color: white;
+  background-color: #373A36; 
+  color: white;
 }
 .top_line {
-    top: 20px;
+  top: 20px;
 
 }
 body {
-      background-color: #E6E2DD;
-      background-image: url("naslovna.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      font-family:Verdana;
-      font-size: 16px;
+    background-color: #E6E2DD;
+    background-image: url("naslovna.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Verdana;
+    font-size: 16px;
 }
 
 .menu {
-    float: left;  
-    width: 10%;
-    /*background-color: #E6E2DD;*/
+  float: left;  
+  width: 10%;
 }
 
 .fa {
-    padding: 8px;
-    font-size: 15px;
-    width: 35px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
+  padding: 8px;
+  font-size: 15px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
-  
+
 .fa-facebook {
-    background: #3B5998;
-    color: white;
+  background: #3B5998;
+  color: white;
 }
 
 .fa-youtube {
-    background: #bb0000;
-    color: white;
+  background: #bb0000;
+  color: white;
 }
 
-.menuitem {
-    padding: 8px;
-    margin-top: 7px;
-    border-bottom: 1px solid #f1f1f1;
-}
-
+/*The main articel*/
 .main {
-    float: left;
-    width: 35%;
-    padding: 0 20px;
-    overflow: hidden;
+  color: black;
+  float: left;
+  width: 35%;
+  padding: 0 20px;
+  overflow: hidden;
 }
 
 li {
-    padding-right: 25px;
+  padding-right: 25px;
 }
 li::before {
-    padding: 55px;
-}
-.left {
-    padding: 5px 5px;
-    margin-top: 2px;
-    float: left;
-    width: 40%;
-    color: black;
-    /*background-color: #E6E2DD;
-    border: 1px solid black;*/
-    opacity: 1;
+  padding: 55px;
 }
 
-  /* View setting for different media tools*/
+/* View setting for different media tools*/
 @media only screen and (max-width:800px) {
-    /* For tablets: */
-    .main {
-      width: 80%;
-      padding: 0;
-    }
-    .right {
-      width: 100%;
-    }
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
 }
 @media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    .menu, .main, .right {
-      width: 100%;
-    }
-}
-.button {
-    background-color: #D48166;
-    border: none;
-    color: white;
-    padding: 0px 20px;
-    border-radius: 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 12px;
-    cursor: pointer;
+  /* For mobile phones: */
+  .menu, .main, .logo {
+    width: 100%;
+  }
 }
 
+
+.menu_button {
+  width: 30%;
+}
 
 .footer {
-    background-color:#373A36;
-    color: whitesmoke;  
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    font-size:12px;
+  background-color:#373A36;
+  color: whitesmoke;  
+  bottom: 0;
+  width: 60%;
+  /*
+  position: absolute;margin-top:7px;
+  left: 16px;*/
+  font-size:12px;
 }
 .validator{
-    position: absolute;
-    bottom: 8px;
-    right: 6px;
-    text-align: right;
+  bottom: 8px;
+  right: 6px;
+  text-align: right;
+  position: absolute;
 }
 .products {
-    font-size: 16px;
-    line-height: 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
+ /* The leaven page*/
+
+ .leaven_layout {
+   background-color: #E6E2DD;
+ }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 15%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 30%;}
+.col-10 {width: 30%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 10%;}
