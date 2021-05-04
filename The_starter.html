@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Starter.css">
+    <link rel="stylesheet" href="Starter_01.css">
     <link rel="stylesheet" href="FirstPage.css">
     <title>The sourdough starter</title>
     <style>
@@ -16,33 +16,40 @@
 
 <body>
     <img class="logo" src="fornaio.png" alt="A logo">
-    <div>
-        <h3 class="header">
-            <button href="Videos.html" class="button_header"><a href="sourdough_webpage.html"
-                    class="button_header">Home</a></button>
-            <button href="Shop.html" class="button_header">Shop</button>
-            <button href="Videos.html" class="button_header">Recipes</button>
-            <button href="Videos.html" class="button_header">Videos</button>
-            <button href="Videos.html" class="button_header">Contact</button>
-        </h3>
+    <div class="header">
+        <button class="button_header" type="button" onclick="window.location.href='sourdough_webpage.html'"> Home
+        </button>
+        <button class="button_header" type="button" onclick="window.location.href='Shop.html'"> Shop </button>
+        <button class="button_header" type="button" onclick="window.location.href='Recipes.html'"> Recipes </button>
+        <button class="button_header" type="button" onclick="window.location.href='Videos.html'"> Videos </button>
+        <button class="button_header" type="button" onclick="window.location.href='Contact_us.html'"> Contact </button>
     </div>
-    <div class="flex-container">
-        <div class="flour">
-            <aside>
-                <p>
-                <h3>The flour</h3>
-                The choice of the flour is individually variable. You can use either all-purpose white and hard type,
-                whole grain,
-                or mixture of these.</p><br>
-            </aside>
-            <img src="https://www.motherearthnews.com/-/media/Images/MEN/Editorial/Articles/Online-Articles/2015/02-01/How-to-Make-Homemade-Flour/komo-grain-mill-square-jpg.jpg"
-                alt="Flour" style=" float: left; width: 440px;height: 440px; margin: 65px 55px 25px;">
+    <div class="row">
+        <div class="column" id="flour">
+
+            <br><br>
+            <h3>The flour</h3>
+            <p style="width:75%; text-align: center;">The choice of the flour is individually preference. You can use
+                either all-purpose white and hard type,
+                whole grain or mixture of these. Whole Wheat Flour contains bran, germ,
+                and the starchy part of the wheat berry and all of its nutrients however, it is more difficult to work
+                with
+                it. Also, note that whole wheat has a higher level of bacteria than in white flour. More bacteria means
+                it
+                will be harder to get a long–ferment unless you let chill in the fridge overnight.
+                Whole purpose flour has a higher gluten content therefore when it comes to shaping the bread it is
+                easier to
+                work with. </p><br>
+
+            <img src=" https://i1.wp.com/yoursourdoughstart.com/wp-content/uploads/2020/05/5-Flours-feature.jpg?resize=1020%2C640&ssl=1"
+                alt="Flour" style=" float: left; width: 720px;height: 440px; margin: 65px 55px 25px;">
         </div>
-        <div class="table">
-            <aside>
-                <p>
-                <h3>Method</h3>
-                To begin wit hour starter we mix thoroughly 20<i>g</i> of flour with 20<i>ml</i> of water.
+        <div class="column" id="table">
+
+            <br><br>
+            <h3>Method</h3>
+            <p style="width:75%; text-align: center;">To begin wit hour starter we mix thoroughly 20<i>g</i> of flour
+                with 20<i>ml</i> of water.
                 Cover the jar so that is not vey tight however, the lid is able to stop the mixture to dry out.
                 We let mixture to rest roughly 24 hours.<br><br>
                 On the second day we repect the very same step and let the mixture to rest another day.<br><br>
@@ -55,14 +62,13 @@
                 The sixth day is the last before our starter is powefulenough to be used to make a bread.
                 We repeat the same steps as in day 5 and let the mixture to rest for another day.
                 After the sixth day the starter is ready to be used, meaning that has enough and the right type of
-                micbrobes to be able to fermentate a whole bread. </p>
-            </aside>
-            <table style="width:50%">
+                micbrobes to be able to fermentate a whole bread. </p><br><br><br>
+            <table>
                 <tr>
                     <th>Day </th>
                     <th>Flour Amount <br>[SI units]</th>
                     <th>Water <br>[SI units]</th>
-                    <th>Amount <br> [Kitchen units &#128513]</th>
+                    <th>Amount <br> [Kitchen units &#128513;]</th>
                 </tr>
                 <tr>
                     <th> 1 </th>
@@ -100,8 +106,11 @@
                     <td> 50 ml</td>
                     <td>2 tbs</td>
                 </tr>
+                <aside style="float:right;width:40%">
+                    <img src="kovasz.jpg" alt="kovasz" style="float:left; width:340px; height:480px;">
+                </aside>
             </table>
-            <img src="kovasz.jpg" alt="kovasz" style="float:left; width:340px; height:480px; margin: 65px 55px 25px;">
+
         </div>
 
     </div>
@@ -114,4 +123,5 @@
 
 
 </body>
+
 </html>
