@@ -136,15 +136,15 @@ li::before {
   background-color: #E6E2DD;
 }
 
-.footer {
+footer {
   background-color:#373A36;
   color: whitesmoke;  
   bottom: 0;
-  width: 60%;
+  width: auto;
   /*
   position: absolute;margin-top:7px;
   left: 16px;*/
-  font-size:12px;
+  font-size: 8px;
 }
 .validator{
   bottom: 8px;
